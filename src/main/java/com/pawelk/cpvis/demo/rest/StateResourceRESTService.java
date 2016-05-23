@@ -76,7 +76,7 @@ public class StateResourceRESTService {
         if (s == null) {
             throw new WebApplicationException(Response.Status.NOT_FOUND);
         }
-        return s;
+        return s; 
     }
 
 
